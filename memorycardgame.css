@@ -1,0 +1,40 @@
+body
+{
+display: flex;
+align-items:center;
+justify-content: center;
+height: 100vh;
+font-family:"Arial",sans-serif;
+background-color: beige;
+margin:0;
+flex-direction: column;
+}
+
+#game-board
+{
+    display:grid;
+    grid-template-columns:repeat(4,100px);
+    gap: 10px;
+}
+
+
+.card
+{
+    width: 100px;
+    height: 100px;
+    background-color: #f9cbcb;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.hidden
+{
+    color: transparent;
+    background-color: #f0f0f0;
+    
+}
